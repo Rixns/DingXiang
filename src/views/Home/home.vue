@@ -4,8 +4,10 @@
     <CovInfo />
     <div class="list">
       <div class="smallImg">
-        <img src="../../assets/images/1.png" alt="" />
-        <div>一元义诊</div>
+        <router-link to="/area">
+          <img src="../../assets/images/1.png" alt="" />
+          <div>风险地区</div>
+        </router-link>
       </div>
       <div class="smallImg">
         <router-link to="/hesuan">
@@ -14,8 +16,10 @@
         </router-link>
       </div>
       <div class="smallImg">
-        <img src="../../assets/images/3.png" alt="" />
-        <div>防疫物资</div>
+        <router-link to="/prevention">
+          <img src="../../assets/images/3.png" alt="" />
+          <div>防疫物资</div>
+        </router-link>
       </div>
       <div class="smallImg">
         <img src="../../assets/images/4.png" alt="" />

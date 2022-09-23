@@ -2,8 +2,10 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home/home.vue"
 
-const Hesuan = () => import("../views/Hesuan/index.vue")
 
+const Hesuan = () => import("../views/Hesuan/index.vue")
+const Area = () => import("../views/Area/index.vue")
+const Prevention = () => import("../views/Prevention/index.vue")
 Vue.use(VueRouter)
 
 const routes = [
@@ -17,6 +19,17 @@ const routes = [
         name: 'Hesuan',
         component: Hesuan
     },
+    {
+        path: '/area',
+        name: 'Area',
+        component: Area
+    },
+    {
+        path: '/prevention',
+        name: 'Prevention',
+        component: Prevention
+    },
+
 
 ]
 
