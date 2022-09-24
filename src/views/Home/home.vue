@@ -30,6 +30,7 @@
     <div>
       <div class="block"></div>
       <CovNum></CovNum>
+      <Maps></Maps>
     </div>
   </div>
 </template>
@@ -37,11 +38,13 @@
 <script>
 import CovInfo from "./CovInfo/index.vue";
 import CovNum from "./CovInfo/CovNum.vue";
+import Maps from "./Maps/index.vue";
 
 export default {
   components: {
     CovInfo,
     CovNum,
+    Maps,
   },
 };
 </script>

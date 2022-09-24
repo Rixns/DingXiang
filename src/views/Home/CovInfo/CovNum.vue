@@ -75,6 +75,7 @@ export default {
 .head {
   margin-top: 0.3rem;
   margin-left: 0.3rem;
+  color: #aeadad;
 }
 .content {
   display: flex;
